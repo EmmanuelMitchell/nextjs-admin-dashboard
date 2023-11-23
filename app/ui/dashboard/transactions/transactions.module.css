@@ -1,0 +1,37 @@
+/* styles/TransactionTable.module.css */
+
+.Wrapper {
+  background-color: var(--bgSoft);
+}
+
+.transactionTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transactionTable th,
+.transactionTable td {
+  /* border: 1px solid #ddd; */
+  padding: 8px;
+  text-align: left;
+}
+
+.transactionTable th {
+  background-color: #2e374a;
+}
+.title {
+  font-size: 16px;
+  color: gray;
+  font-weight: 500;
+}
+
+.ImgWrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.Img {
+  border-radius: 50%;
+}

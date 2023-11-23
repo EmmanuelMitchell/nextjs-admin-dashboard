@@ -1,0 +1,12 @@
+.container {
+  height: 200px;
+  width: 90%;
+  padding: 5px;
+  background-color: #2e374a;
+}
+
+.title {
+  color: gray;
+  margin: 2px;
+  font-size: 18px;
+}

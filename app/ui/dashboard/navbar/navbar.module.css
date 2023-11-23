@@ -1,0 +1,48 @@
+.conatianer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  gap: 10px;
+  background-color: var(--bgSoft);
+  border-radius: 20px;
+  position: sticky;
+  top: -10px;
+}
+
+.title {
+  text-transform: uppercase;
+  color: var(--text);
+  font-weight: bold;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  background-color: #2e374a;
+}
+
+.input {
+  background-color: transparent;
+  padding: 10px;
+  border: none;
+  color: white;
+}
+.input:focus {
+  border: none;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

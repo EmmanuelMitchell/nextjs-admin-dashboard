@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: var(--bgSoft);
+  margin: 3px;
+  width: 100%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container:hover {
+  background-color: #2e374a;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.title {
+  font-weight: 600;
+  color: gray;
+}
+
+.positive {
+  color: green;
+  font-weight: bold;
+  padding: 2px;
+}
